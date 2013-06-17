@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = StewartStuff;
 				TargetAttributes = {
+					38055EC91766A37B00B766FF = {
+						DevelopmentTeam = 35HM669KA6;
+					};
 					38055EEA1766A37B00B766FF = {
 						TestTargetID = 38055EC91766A37B00B766FF;
 					};
@@ -375,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOf7/TestOf7-Prefix.pch";
 				INFOPLIST_FILE = "TestOf7/TestOf7-Info.plist";
@@ -388,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOf7/TestOf7-Prefix.pch";
 				INFOPLIST_FILE = "TestOf7/TestOf7-Info.plist";
@@ -455,6 +460,7 @@
 				38055EFE1766A37B00B766FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38055EFF1766A37B00B766FF /* Build configuration list for PBXNativeTarget "TestOf7Tests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +469,7 @@
 				38055F011766A37B00B766FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
